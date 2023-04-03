@@ -1,15 +1,15 @@
 import requests
 from twilio.rest import Client
 
-twilio_recovery_code = "30AeXA8RwKD62yRsLI3uMIQolgvux22tLMKQzgT6"
+twilio_recovery_code = "Your Twilio Recovery Code"
 
 url = "https://api.openweathermap.org/data/3.0/onecall"
-api_key = "e3ec3883d6c35f6cc8932a2e2b8a535d"
+api_key = "Your Opne Weather Api Key"
 lat = 42.464828
 lon = 14.214090
 
-account_sid = "AC5c1aa42bce5fd7fa9a0c590fd0f8dc53"
-auth_token = "9f094328af23206ae5993e3110b39bcd"
+account_sid = "Your Twilio Account Sid"
+auth_token = "Your Twilio Auth Token"
 
 weather_params = {
     "lat": lat,
